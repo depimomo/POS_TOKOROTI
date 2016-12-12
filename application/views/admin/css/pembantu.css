@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 6%;
+    background-color: #414042;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+a{
+	font-family: Roboto;
+	font-size: 1.1vw;
+}
+
+.tebal{
+	font-family: Roboto medium;
+}
+
+li a.active {
+    background-color: #42A5F5;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.pagination {
+    display: block;
+    padding: 0;
+    margin-left:0%;
+	border-radius: 4px;
+	text-align:right;
+	background-color: transparent;
+	width:300px;
+}
+
+.paddingnav{
+	padding:16%;
+}
+
+.putih{
+	color: white;
+}
+
+h1{
+	font-weight:bold;
+	font-family: Roboto semibold;
+}
+
+h4{
+	font-family: Roboto;
+}
+
+.konten{
+	font-family:Roboto;
+	font-size:1.2vw;
+}
+
+.kotakbiru{
+	background-color: #64B5F6;
+	width:90px;
+	height:8px;
+}
+
+.kartu{
+	height:200px;
+	width:190px;
+	border:1px solid #E0E0E0;
+	margin-right:6px;
+	padding:0%;
+	padding-top:1%;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+	
+}
+
+.kartu:hover{
+	box-shadow: 5px 5px 10px #E0E0E0;
+}
+
+.kartu:after {
+    content: "";
+    background: #E3F2FD;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.kartu:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+
+
+
+
+.judulmenu{
+	margin-top:0%;
+	padding-top:6%;
+	padding-left:10%;
+	font-size:1.25vw;
+}
+
+.subjudulmenu{
+	margin-top:-2%;
+	padding-left:10%;
+	font-family: Roboto light;
+	font-size:1.1vw;
+	padding-bottom:2.5%;
+}
+
+.bgbiru{
+	background-color: #42A5F5;
+}
+
+.hitam{
+	color: #414042;
+}
+
+h5{
+	font-family:Roboto light;
+}
+
+.warnatbl{
+	background-color:#F5F5F5;
+}
+
+.btn-biru{
+		background-color: #1E88E5;
+		border-radius:30px;
+		width: 110px;
+		height:37px;
+		padding:0px;
+		color: white;
+		font-family: Roboto;
+		
+}
+
+.btn-biruout{
+		background-color:white;
+		border-radius:30px;
+		width: 100px;
+		height:38px;
+		padding:0px;
+		color: #1E88E5;
+		border:1px solid #1E88E5;
+		font-family: Roboto;
+		margin-right:10px;
+}
+
+.isiankiri{
+	font-family:Roboto;
+	font-size:1.2vw;
+}
+
+.btn-biru:hover{
+	color: white;
+}
+
+.btn-biruout:hover{
+	color: #1E88E5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
